@@ -142,35 +142,35 @@ Daha sonra kubectl apply -f deployment_recreate.yaml --> komutunu tekrar çalı�
 ```bash
 kubectl get deployments 
 ```
- Deployment'ları listeler. 
+ --> Deployment'ları listeler. 
 	
 ```bash
 kubectl delete deployment deployment_name
 ```
-Deployment ve ona bağlı olan replicaset ile podların tamamını siler
+ --> Deployment ve ona bağlı olan replicaset ile podların tamamını siler
 	
 ```bash
 kubectl rollout undo deployment deployment_name 
 ```
-Deployment'da yapılan son değişikliğin geri alınmasını eski versiyona geçilebilmesini sağlar. 
+ --> Deployment'da yapılan son değişikliğin geri alınmasını eski versiyona geçilebilmesini sağlar. 
 	
 ```bash
 kubectl rollout history deployment deployment_name
 ```
-Deployment'da yapılan değişikliklerin listelenmesini sağlar.
+ --> Deployment'da yapılan değişikliklerin listelenmesini sağlar.
 	
 ```bash
 kubectl rollout status deployment deployment_name
 ```
-Deployment'da yapılan değişikliklerin izlenmesini sağlar.
+ --> Deployment'da yapılan değişikliklerin izlenmesini sağlar.
 	
 ```bash
 kubectl rollout puse deployment deployment_name
 ```
-Deployment üstünde yapılan değişikliklerin durdurulmasını sağlar. 
+ --> Deployment üstünde yapılan değişikliklerin durdurulmasını sağlar. 
 ```bash
 kubectl rollout resume deployment deployment_name
 ```
-Durdurulan rollout'un devam ettirilmesini sağlar. 
+ --> Durdurulan rollout'un devam ettirilmesini sağlar. 
 
 * [<-- Geri](https://github.com/enespekdas/kubernetes/tree/master/Replicaset%20-%20ReplicationController) [/ ileri -->  ](https://github.com/enespekdas/kubernetes/tree/master/Label%20And%20Selector) 
