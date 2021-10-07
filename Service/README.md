@@ -118,9 +118,9 @@ Burada gördüğümüz tüm objelerin ip adresleri vardır aslında fakat ip adr
 
 Üçüncü servis tipimiz ise LoadBalancer tipi servislerdir. Birden fazla aynı cluster'a hizmet veren ip adresimiz olabilir.
 
-192.168.1.3 
-192.168.1.4
-192.168.1.5
+- 192.168.1.3 
+- 192.168.1.4
+- 192.168.1.5
 
 Gibi ip adresleri aynı cluster'a bağlantı sağlıyor olabilir .  Bu ip adreslerinin önüne Loadbalancer tipinde bir servis koyduğumuzda random şekilde ip adreslerine gelen talepleri yönlendirir ve cluster'a erişilebilmesini sağlar. 
 
