@@ -29,13 +29,13 @@ yaml dosyası replicaset ile neredeyse aynıdır. Deployment'ı oluşturduğumuz
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/55376595/133255702-974c21f2-1294-4f8c-afe1-f89de8d47eec.png"/>
+  <img src="https://user-images.githubusercontent.com/38957716/136305150-55eda0bb-79f5-4c90-b27f-c7623b2c164b.png"/>
 </p>
 
 Örneğin nginx 1.7.0 versiyonunu kullanan 10 tane pod  olsun. Nginx 1.7.1 versiyonuna geçiş yapacağız. Deployment objesi versiyon geçişi yaparken 2 farklı stratejiyle bu geçişi sağlar. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/55376595/133255683-5ad88345-6b5e-479c-b449-851c07bf8cee.png"/>
+  <img src="https://user-images.githubusercontent.com/38957716/136305186-d9ee1677-e649-46cf-a83d-136311d00e21.png"/>
 </p>	
 -     Rolling Update : 
    	
